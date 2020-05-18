@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Allure测试Demo" parallel="tests">	
+	
+	<test name="登录功能相关测试用例" >
+	    <parameter name="username" value="wojiutest" />
+	<parameter name="password" value="123456" />
+	<parameter name="Wpassword" value="222" />
+		<packages>
+			<package name="testcases" />
+		</packages>
+	</test>
+</suite>
+
+
+
